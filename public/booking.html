@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ticket Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>🎫 Ticket Booking</h2>
+
+<form action="/book" method="POST">
+    <input type="text" name="name" placeholder="Name" required><br><br>
+    <input type="number" name="phoneNo" placeholder="PhoneNo" required><br><br>
+    <input type="text" name="email" placeholder="Email" required><br><br>
+    <input type="text" name="from" placeholder="From" required><br><br>
+    <input type="text" name="to" placeholder="To" required><br><br>
+    <input type="date" name="date" required><br><br>
+
+    <select name="seat" required>
+        <option value="">Select Seat</option>
+        <option>Window</option>
+        <option>Middle</option>
+        <option>Aisle</option>
+    </select><br><br>
+
+    <input type="number" name="seatNo" placeholder="No of the seat" required><br><br>
+
+    <input type="number" name="ticketsCount" placeholder="No of Tickets" required><br><br>
+
+    <button>Book Ticket</button>
+</form>
+</body>
+</html>

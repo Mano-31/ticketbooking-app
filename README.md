@@ -38,7 +38,7 @@ ticket-app/
 ## 1️⃣ Clone the repository
 
 Bash
-git clone https://github.com/your-username/ticket-booking.git
+git clone https://github.com/Mano-31/ticket-booking.git
 
 ## 2️⃣ Navigate to project
 
@@ -57,9 +57,9 @@ npm install mongoose
 
 ## 5️⃣ Start MongoDB
 
-Make sure MongoDB is running locally:
+Make sure MongoDB is running
 
-mongodb://127.0.0.1:27017
+"mongodb://localhost:27017/"
 
 ## 6️⃣ Run the server
 
@@ -68,7 +68,7 @@ node server.js
 
 ## 7️⃣ Open in browser
 
-http://localhost:3000/register.html
+http://localhost:5000/register.html
 
 # 🧠 How It Works
 

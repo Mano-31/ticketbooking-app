@@ -31,18 +31,30 @@ CSS3
 
 # 📁 Project Structure
 
-# (ticket-app/
+ticket-app/
+
 │
+
 ├── server.js
+
 ├── models/
+
 │   ├── User.js
+
 │   └── Ticket.js
+
 │
+
 └── public/
+
     ├── register.html
+    
     ├── login.html
+    
     ├── booking.html
-    └── style.css)
+    
+    └── style.css
+    
     
 # ⚙️ Installation & Setup
 

@@ -39,21 +39,21 @@ ticket-app/
 
 ├── models/
 
-│   ├── User.js
+│    ├── User.js
 
-│   └── Ticket.js
+│    └── Ticket.js
 
 │
 
 └── public/
 
-    ├── register.html
+     ├── register.html
     
-    ├── login.html
+     ├── login.html
     
-    ├── booking.html
+     ├── booking.html
     
-    └── style.css
+     └── style.css
     
     
 # ⚙️ Installation & Setup

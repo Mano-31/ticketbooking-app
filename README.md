@@ -31,7 +31,7 @@ CSS3
 
 # 📁 Project Structure
 
-ticket-app/
+# (ticket-app/
 │
 ├── server.js
 ├── models/
@@ -42,7 +42,7 @@ ticket-app/
     ├── register.html
     ├── login.html
     ├── booking.html
-    └── style.css
+    └── style.css)
     
 # ⚙️ Installation & Setup
 
@@ -102,6 +102,7 @@ Data is saved permanently
 
 {
   username: String,
+  
   password: String
 }
 
